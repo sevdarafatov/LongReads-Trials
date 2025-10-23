@@ -108,5 +108,5 @@ fwrite(AnnotatedTableDMR, "DMR_results_annotated_ds.tsv", sep = "\t")
 rm(TableControl, TableTest, TableDMR, stats_summary, annotated, gr)
 gc()
 
-cat("\n✅ PoreMeth2 analysis complete! All results saved in working directory.\n")
+cat("\n PoreMeth2 analysis complete! All results saved in working directory.\n")
 #############################################
